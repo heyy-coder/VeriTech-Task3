@@ -172,6 +172,11 @@ header .input-section {
         min-width: 96%;
     }
 }
+.table-wrapper {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    margin-top: 20px; /* Adjust margin as needed */
+    max-width: 100%; /* Ensure the wrapper doesn't overflow horizontally */
+}
     </style>
 </head>
 <body>
@@ -212,6 +217,7 @@ header .input-section {
             </button>
         </div>
 
+        <div class="table-wrapper">
          <table class="table w-full">
             <thead>
                 <tr>
@@ -224,6 +230,7 @@ header .input-section {
             <tbody class="todos-list-body">
             </tbody>
         </table>
+    </div>
     </div>
 
     <!--Theme switcher-->
